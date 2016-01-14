@@ -17,6 +17,8 @@
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="dist/css/bootstrap-switch.css">
+
     <!-- iCheck -->
     <link rel="stylesheet" href="plugins/iCheck/flat/blue.css">
     <!-- Morris chart -->
@@ -44,7 +46,7 @@
         <!-- Logo -->
         <a href="index2.html" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>A</b>LT</span>
+            <span class="logo-mini"><b>M</b>No7</span>
             <!-- logo for regular state and mobile devices -->
             <span class="logo-lg"><b>Motel</b>No7</span>
         </a>
@@ -152,7 +154,7 @@
         <section class="content-header">
             <h1>
                 Motel No7
-                <small>Events</small>
+                <small>Detail Event</small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -167,8 +169,9 @@
                 <div class="col-lg-12 col-xs-12">
                     <!-- small box -->
                     <div class="pull-right">
-                        <button class="btn btn-block btn-primary btn-flat">Add Event</button>
-                        <br>
+                        <button class="btn btn-primary btn-flat"><i class="fa fa-edit"></i> Edit Event</button>
+                        <button class="btn btn-danger btn-flat"><i class="fa fa-remove"></i> Delete Event</button>
+                        <br><br>
                     </div>
                 </div><!-- ./col -->
             </div><!-- /.row -->
@@ -180,99 +183,26 @@
                     <div class="box box-primary">
                         <div class="box-header">
                             <i class="ion ion-clipboard"></i>
-                            <h3 class="box-title">Events</h3>
+                            <h3 class="box-title">Detail Event</h3>
                             <div class="box-tools pull-right">
                             </div>
                         </div><!-- /.box-header -->
                         <div class="box-body">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <tbody><tr>
-                                        <th style="width: 10px">#</th>
-                                        <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Assistents</th>
-                                        <th>Confirmed</th>
-                                        <th>Details</th>
-                                    </tr>
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>Update software</td>
-                                        <td>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        </td>
-                                        <td><span class="badge bg-red">150</span></td>
-                                        <td><span class="badge bg-green">55</span></td>
-                                        <td>
-                                            <button class="btn btn-block btn-primary btn-flat">Details</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>Clean database</td>
-                                        <td>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        </td>
-                                        <td><span class="badge bg-red">150</span></td>
-                                        <td><span class="badge bg-green">55</span></td>
-                                        <td>
-                                            <button class="btn btn-block btn-primary btn-flat">Details</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3.</td>
-                                        <td>Cron job running</td>
-                                        <td>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        </td>
-                                        <td><span class="badge bg-red">150</span></td>
-                                        <td><span class="badge bg-green">55</span></td>
-                                        <td>
-                                            <button class="btn btn-block btn-primary btn-flat">Details</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4.</td>
-                                        <td>Fix and squish bugs</td>
-                                        <td>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        </td>
-                                        <td><span class="badge bg-red">150</span></td>
-                                        <td><span class="badge bg-green">55</span></td>
-                                        <td>
-                                            <button class="btn btn-block btn-primary btn-flat">Details</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5.</td>
-                                        <td>Fix and squish bugs</td>
-                                        <td>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        </td>
-                                        <td><span class="badge bg-red">150</span></td>
-                                        <td><span class="badge bg-green">55</span></td>
-                                        <td>
-                                            <button class="btn btn-block btn-primary btn-flat">Details</button>
-                                        </td>
-                                    </tr>
-                                    </tbody></table>
-                            </div>
+                            <p><b>Name:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur delectus distinctio dolores, eaque eligendi excepturi facilis fugit in ipsam ipsum iste iusto maiores neque nesciunt non, quas qui rerum sunt?</p>
+                            <p><b>Description:</b>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur delectus distinctio dolores, eaque eligendi excepturi facilis fugit in ipsam ipsum iste iusto maiores neque nesciunt non, quas qui rerum sunt?</p>
+                            <p><b>Confirmed User:</b> <span class="badge bg-green">150</span></p>
+                            <p><b>Pending User:</b> <span class="badge bg-red">55</span></p>
+                            <p><b>Activated:</b>   <input type="checkbox" name="my-checkbox" checked data-size="mini"></p>
                         </div><!-- /.box-body -->
                         <div class="box-footer clearfix no-border">
+                            <div class="pull-right">
+                                <button class="btn btn-info btn-flat"><i class="fa fa-users"></i> User List</button>
+                                <button class="btn btn-warning btn-flat"><i class="fa fa-cogs"></i> Generate Code</button>
+                                <br><br>
+                            </div>
                             <!-- <button class="btn btn-default pull-right"><i class="fa fa-plus"></i> Add item</button> -->
                         </div>
                     </div><!-- /.box -->
-                    <div class="col-lg-7 align-center">
-                        <div class="box-tools">
-                            <ul class="pagination pagination-sm no-margin pull-right">
-                                <li><a href="#">«</a></li>
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">»</a></li>
-                            </ul>
-                        </div>
-                    </div>
                 </section><!-- /.Left col -->
             </div><!-- /.row (main row) -->
 
@@ -484,10 +414,13 @@
 <!-- FastClick -->
 <script src="plugins/fastclick/fastclick.min.js"></script>
 <!-- AdminLTE App -->
+
 <script src="dist/js/app.min.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+<script src="dist/js/bootstrap-switch.js"></script>
+<script>$("[name='my-checkbox']").bootstrapSwitch();</script>
 </body>
 </html>
